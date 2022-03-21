@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react';
 import './App.css';
+import Cover from './components/cover/Cover';
+import Navbar from './components/navbar/Navbar';
+
 
 function App() {
+//hook para que inice el scroll en 0 aqui no funciona.   
+const [scrollHeigth, setScrollHeigth]= useState(0);
+
+// esta funcion controla la poscion del scroll
+
+const handleScroll = () => {
+      const position = window.pageYOffset;
+      setScrollHeigth(position);
+
+};
+
+useEffect(() =>{
+  window.addEventListener("scroll", handleScroll);
+//cuando el parametro scrollheigth cambia se ejecuta usseffect y se actualiza el valor con la posicion del scroll
+}, [scrollHeigth])
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar isScrolling={scrollHeigth}/>
+      <Cover />
     </div>
   );
 }

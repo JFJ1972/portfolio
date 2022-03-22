@@ -1,56 +1,54 @@
-import React from 'react';
-import "./Slider.css"
-import { Carousel } from 'react-bootstrap';
-import img3 from "../../media/logopm2.png"
-import img4 from "../../media/logopm.png"
-import img5 from "../../media/marcapersonal2.jpg"
-
+import React from "react";
+import "./Slider.css";
+import { Carousel } from "react-bootstrap";
+import img3 from "../../media/logopm2.png";
+import img4 from "../../media/logopm.png";
+import img5 from "../../media/marcapersonal2.jpg";
 
 const Slider = () => {
   return (
-    <div className='scontainer'>
-      <Carousel fade>
-  
-  <Carousel.Item className='proy'>
-    <img
-      className="d-block w-100"
-      src={img3} 
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  
-  <Carousel.Item className='proy'>
-    <img
-      className="d-block w-100"
-      src={img4}
-      alt="Second slide"
-    />
+    <div className="textSlider">
+      <div className="proyectsText">
+        <h3>Proyectos</h3>
+        <p>
+          Estas son imagenes de algunos proyectos en los que he participado. Se han realizado aplicando metodologia scrum y agile. 
+          <br/><br/>
+          Disfruto trabajar en equipo y alcanzar objetivos de forma conjunta.<br/><br/>
+          Participe en la Hackaton-F5 2022 como parte de un equipo integrado por estudiantes de escuelas europeas de diversas nacionalides.
+        </p>
+      </div>
 
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  
-  <Carousel.Item className='proy'>
-    <img
-      className="d-block w-100"
-      src={img5}
-      alt="Third slide"
-    />
+      <div className="sliderContainer">
+        <Carousel variant="dark">
+          <Carousel.Item>
+            <img className="d-block w-100" src={img3} alt="First slide" />
+            <Carousel.Caption>
+              <h3>Replica Web</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>  
+          <Carousel.Item>
+            <img className="d-block w-100" src={img4} alt="Second slide" />
+            <Carousel.Caption>
+              <h3>Covid-19</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img className="d-block w-100" src={img5} alt="Third slide" />
+            <Carousel.Caption>
+              <h3>Third slide label</h3>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Slider
+export default Slider;

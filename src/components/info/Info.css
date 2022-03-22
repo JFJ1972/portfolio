@@ -1,0 +1,24 @@
+.info-container{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(77, 70, 70);
+    color: aliceblue;
+    display: flex;
+    margin-bottom: 40vh;
+    }
+
+.curriculum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.mailer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}

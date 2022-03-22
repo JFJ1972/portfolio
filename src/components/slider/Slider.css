@@ -1,1 +1,41 @@
+.textSlider{
+    display: flex;
+    background-color: brown;
+    height: 80vh;
+    padding: 100px 0 100px 0;
+}
 
+.proyectsText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 0 100px 0 200px;
+    color: white;
+}
+
+.proyectsText > h3{
+    margin-bottom: 30px;
+    font-size: 100px;
+}
+.proyectsText > p{
+    line-height: 1.5;
+    font-size: 50px;    
+}
+
+
+.sliderContainer{
+    width: 30%;
+    }
+
+.sliderContainer h3{
+color: gray;
+font-family: "Hind Madurai";
+font-size: 20px;
+}    
+
+.sliderContainer p{
+    color: gray;
+    font-family: "Hind Madurai";
+    font-size: 20px;
+    }    

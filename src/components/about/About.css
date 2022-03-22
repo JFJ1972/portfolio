@@ -1,7 +1,6 @@
 .about-container{
   display: flex;
-  background-color: white;
-  color: black;  
+  background-color: rgb(77, 70, 70);
   height: 70vh;
   padding: 100px 0 100px 0;
 }
@@ -11,21 +10,23 @@
     flex-direction: column;
     justify-content: center;
     width: 55%;
-    padding: 0 100px 0 100px;
-}
+    padding: 0 100px 0 200px;
+    color: white ;
+  }
 
 .about-desc > h3 {
 margin-bottom: 30px;
-font-size: 28px;
+font-size: 100px;
 }
 
 .about-desc > p {
 line-height: 1.5;
+font-size: 60px;
 }
 
 .about-img{
-width: 45%;
+width: 50%;
 display: flex;
-align-items: center;
+/*align-items: center;*/
 overflow: hidden;/*OJOOOOOOOO*/
 }

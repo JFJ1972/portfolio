@@ -8,10 +8,11 @@ function About() {
       <div className="about-desc">
         <h3>Sobre mi</h3>
           <p>          
-            loremipsum Copyright Microsoft Corporation. Todos los derechos
-            reservadoCopyright  Microsoft Corporation. Todos los derechos
-            reservadoCopyright  Microsoft Corporation. Todos los derechos
-            reservado
+            Soy administrador de empresas con 25 años de experiencia en el sector financiero y 
+            desde 2021 estoy entrenandome para ser desarrollador Web. 
+            
+
+            
           </p>
       </div>
         <div className="about-img">

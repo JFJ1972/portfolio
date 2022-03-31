@@ -14,7 +14,7 @@ const Slider = () => {
           Estas son imagenes de algunos proyectos en los que he participado. Se han realizado aplicando metodologia scrum y agile. 
           <br/><br/>
           Disfruto trabajar en equipo y alcanzar objetivos de forma conjunta.<br/><br/>
-          Participe en la Hackaton-F5 2022 como parte de un equipo integrado por estudiantes de escuelas europeas de diversas nacionalides.
+          Participe en la Hackaton-F5 2022 como parte de un equipo integrado por estudiantes de escuelas europeas de diversas nacionalidades.
         </p>
       </div>
 

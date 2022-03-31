@@ -8,7 +8,7 @@ function About() {
       <div className="about-desc">
         <h3>Sobre mi</h3>
           <p>          
-            Soy administrador de empresas con 25 años de experiencia en el sector financiero y 
+            Soy administrador de empresas y 
             desde 2021 estoy entrenandome para ser desarrollador Web. 
             
 

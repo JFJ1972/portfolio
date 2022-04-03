@@ -7,19 +7,18 @@ import img5 from "../../media/marcapersonal2.jpg";
 
 const Slider = () => {
   return (
-    <div className="textSlider">
+    <div className="proyects">
       <div className="proyectsText">
         <h3>Proyectos</h3>
         <p>
-          Esta es una muestra de algunos individuales y de los realizados en equipo, los que se han realizado aplicando metodologia scrum y agile. 
+          He realizado proyectos de forma individual y en equipo, simepre aplicando metodologia scrum y agile. 
           <br/><br/>
-          Disfruto trabajar en equipo y alcanzar objetivos de forma conjunta.<br/><br/>
           Participe en la Hackaton-F5 2022 como parte de un equipo integrado por estudiantes de escuelas europeas de diversas nacionalidades.
         </p>
       </div>
 
       <div className="sliderContainer">
-        <Carousel variant="dark">
+        <Carousel variant="dark" >
           <Carousel.Item>
             <img className="d-block w-100" src={img3} alt="First slide" />
             <Carousel.Caption>

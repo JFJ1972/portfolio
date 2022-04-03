@@ -1,29 +1,31 @@
-.textSlider{
-    display: flex;
-    flex-direction: row;
+.proyects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: brown;
     height: 100vh;
-    padding: 100px 0 100px 0;
+    width: 100%;    
 }
 
 .proyectsText{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
-    padding: 0 100px 0 100px;
+    width: 100%;
     color: white;
+    padding: 0 100px 0 100px;
 }
 
 .proyectsText > h3{
-    margin-bottom: 30px;
     font-size: 100px;
 }
 .proyectsText > p{
+    text-align: justify;
     line-height: 1.5;
-    font-size: 30px;    
+    font-size: 25px;    
 }
-  
+
+
+
 @media screen and (max-width:960px){
     .textSlider{
         display: flex;

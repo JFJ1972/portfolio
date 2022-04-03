@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import About from './components/about/About';
 import Cover from './components/cover/Cover';
-import Footer from './components/footer/Footer';
-import {Info} from './components/info/Info.js';
+import {Footer} from './components/footer/Footer';
+import Info from './components/info/Info.js';
 import Navbar from './components/navbar/Navbar';
 import Slider from './components/slider/Slider';
 

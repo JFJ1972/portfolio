@@ -1,28 +1,17 @@
 import React from "react";
 import "./Info.css";
-import emailjs from "@emailjs/browser";
 
-export const Info = () => {
-  const sendEmail = (event) => {
-    event.preventDefault();
-    emailjs
-      .sendForm(
-        "service_qby8lia",
-        "template_qeorxlr",
-        event.target,
-        "HTFvVy3xF0EPHXk_T"
-      )
-      .then((response) => console.log(response))
-      .catch((error) => console.log(error));
-  };
+
+const Info = () => {
+  
   return (
     <div className="info-container">
       <div className="curriculum">
         <div className="resume">
-          <h1>Professional Resume</h1>
+          <h1>Professional Resume</h1><br/>
           <p>
             Web developer passionate about new challenges, with knowledge in
-            front-end and back-end, oriented to the achievement of objectives, with extensive
+            front-end and back-end, oriented to the achievement of objectives, extensive
             experience in internal and external customer service as well as in
             the implementation and execution of the agile methodology. Interested in
             Being part of teams dedicated to software development that
@@ -40,7 +29,7 @@ export const Info = () => {
         <div className="topics">
           <div className="education">
             <h4>Education</h4>
-            Degree: Web Develloper Full Stack
+            Degree: Web Developer Full Stack
             <br/>
             Completed May 2022
             <br/>
@@ -54,7 +43,7 @@ export const Info = () => {
             HTML
             CSS
             <br />
-            JavaScrpt
+            JavaScript
             React
             <br />
             Node
@@ -72,11 +61,14 @@ export const Info = () => {
         </div>
         <br/><br/>
         <br/><br/>
+        </div>
+      
+        <div className="curriculumb">
         <div className="resume">
-          <h1>Resumen Profesional</h1>
+          <h1>Resumen Profesional</h1><br/>
           <p>
             Desarrollador web apasionado por nuevos retos, con conocimentos en
-            front-end y back-end, orientado al logro de objetivos, con amplia
+            front-end y back-end, orientado al logro de objetivos, amplia
             experiencia en atencion al cliente interno y externo al igual que en
             la implementacion y ejecucion de la metodologia agile. Interesado en
             hacer parte de equipos dedicados al desarrollo de software que me
@@ -108,7 +100,7 @@ export const Info = () => {
             HTML
             CSS
             <br />
-            JavaScrpt
+            JavaScript
             React
             <br />
             Node
@@ -127,21 +119,8 @@ export const Info = () => {
        <br/><br/>        
       </div>
 
-      <div className="div-form">
-        <h2 className="title-form">Contact/Contacto</h2>
-        <form className="form-mail" onSubmit={sendEmail}>
-          <label>Name/Nombre</label>
-          <input type="text" name="user_name" />
-          <hr />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <hr />
-          <label>Message/Mensaje</label>
-          <textarea name="user_message" id="" cols="30" rows="10"></textarea>
-          <hr />
-          <button>Send/Enviar</button>
-        </form>
-      </div>
     </div>
   );
 };
+
+export default Info;

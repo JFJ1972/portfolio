@@ -6,7 +6,6 @@ function About() {
   return (
     <div className="about-container">
       <div className="about-desc">
-        <h3>Sobre mi</h3>
           <p>          
             Soy administrador de empresas y 
             desde 2021 estoy entrenandome para ser desarrollador Web. 

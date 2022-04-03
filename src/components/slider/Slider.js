@@ -11,7 +11,7 @@ const Slider = () => {
       <div className="proyectsText">
         <h3>Proyectos</h3>
         <p>
-          Estas son imagenes de algunos proyectos en los que he participado. Se han realizado aplicando metodologia scrum y agile. 
+          Esta es una muestra de algunos individuales y de los realizados en equipo, los que se han realizado aplicando metodologia scrum y agile. 
           <br/><br/>
           Disfruto trabajar en equipo y alcanzar objetivos de forma conjunta.<br/><br/>
           Participe en la Hackaton-F5 2022 como parte de un equipo integrado por estudiantes de escuelas europeas de diversas nacionalidades.

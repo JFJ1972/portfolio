@@ -8,7 +8,7 @@ const Info = () => {
     <div className="info-container">
       <div className="curriculum">
         <div className="resume">
-          <h1>Professional Resume</h1><br/>
+          <h1>Professional Resume</h1>
           <p>
             Web developer passionate about new challenges, with knowledge in
             front-end and back-end, oriented to the achievement of objectives, extensive
@@ -65,7 +65,7 @@ const Info = () => {
       
         <div className="curriculumb">
         <div className="resume">
-          <h1>Resumen Profesional</h1><br/>
+          <h1>Resumen Profesional</h1>
           <p>
             Desarrollador web apasionado por nuevos retos, con conocimentos en
             front-end y back-end, orientado al logro de objetivos, amplia

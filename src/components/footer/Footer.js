@@ -20,16 +20,17 @@ export const Footer = () => {
   return (
     <div className="footer-container">
       <footer className="footer">
+      <div className="design-by">Desing by / Diseñado por :</div>
         <div className="footer-info">
-          <h1> José Fernando Jiménez</h1>
+          <h1> José Fernando Jiménez R.</h1>
           <p>Bogotá, Colombia</p>
         </div>
         <div className="footer-contact">
-          <h3>Puedes encontrarme en redes sociales:</h3>
-          <p>Puedes encontrarme en redes sociales:</p>
+          <h3>Social Media / Redes Sociales :</h3>
+
         </div>
         <div className="footer-sns">
-          <div className="design-by">Diseñado por José Fernando Jiménez</div>
+          
           <div className="sns-links">
             <a
               href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3Ba6YzcVZ3QSG0SR4Ml382LA%3D%3D"

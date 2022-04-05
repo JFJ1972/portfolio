@@ -10,36 +10,51 @@ align-items: center;
 z-index: -2;
 bottom: 0;
 left: 0;
-display: flex;
+display: grid;
+grid-template-columns: 1fr 1fr;
 top: 0;
 right: 0;
 }
 .footer{
-    width: 50%;
+    width: 100%;
+}
+.design-by{
+  font-size: 35px;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.footer-info > h1{
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .footer-info{
 font-size: 35px;
 width: 100%;
+padding-bottom: 60px;
 }
 
 .footer-contact {
 font-size: 22px;
+padding-bottom: 20px;
 }
 
 
 .sns-links{
 display: grid;
-width: 100%;
+width: 50%;
+text-align: center;
 grid-template-columns: 1fr 1fr;
 }
 
 .linkedin, .instagram{
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     margin: 0 auto;
     padding-bottom: 10px;
     border-bottom: 4px solid transparent;
+    
 }
 
 .linkedin:hover, .instagram:hover{
@@ -47,10 +62,6 @@ border-color: black;
 transition: all 0.3s ease-out;
 }
 
-.design-by{
-    font-size: 30px;
-    color: white;
-}
 
 
 .div-form{
@@ -58,7 +69,7 @@ transition: all 0.3s ease-out;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
     
 }
 
@@ -67,12 +78,13 @@ transition: all 0.3s ease-out;
 }
 
 .form-mail {
-  width: 20rem;
-  height: 35rem;
+  width: 25rem;
+  height: 40rem;
   border: groove 3px #ffff;
   border-radius:10px;
   box-shadow: -3px -2px 1px brown;
   background: brown;  
+  box-shadow: -30px 30px 20px rgba(0,0,0,0.5);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -109,8 +121,8 @@ button {
   width: 8rem;
   border-radius: 5px;
   font-size: 1.2rem;
+  font-weight: bold;
   color: rgb(77,70,70);
-  background-color: #fcfcfc;
   cursor: pointer;
 }
 
@@ -118,7 +130,7 @@ button:hover,
 button:focus {
   background-color: rgb(77,70,70);
   font-size: 1rem;
-  font-weight: 700;
+  font-weight:bold;
   color: #ffff;
 }
 

@@ -8,15 +8,6 @@ import img5 from "../../media/marcapersonal2.jpg";
 const Slider = () => {
   return (
     <div className="proyects">
-      <div className="proyectsText">
-        <h3>Proyectos</h3>
-        <p>
-          He realizado proyectos de forma individual y en equipo, simepre aplicando metodologia scrum y agile. 
-          <br/><br/>
-          Participe en la Hackaton-F5 2022 como parte de un equipo integrado por estudiantes de escuelas europeas de diversas nacionalidades.
-        </p>
-      </div>
-
       <div className="sliderContainer">
         <Carousel variant="dark" >
           <Carousel.Item>
@@ -45,6 +36,16 @@ const Slider = () => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+      </div>
+      <div className="proyectsText">
+        <h3>Projects/Proyectos</h3>
+        <p>
+          I have carried out projects individually and in teams, always applying scrum and agile methodologies.
+          Participate in the ¨Hackaton-F5 2022¨ as part of a team made up of students from european schools of various nationalities.
+          <br/><br/>
+          He realizado proyectos de forma individual y en equipo, siempre aplicando metodologia scrum y agile. 
+          Participe en la ¨Hackaton-F5 2022¨ como parte de un equipo integrado por estudiantes de escuelas europeas de diversas nacionalidades.
+        </p>
       </div>
     </div>
   );

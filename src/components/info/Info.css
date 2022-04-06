@@ -59,6 +59,9 @@
 .topics h4{
   font-weight: bold;
 }
+.educamas1{
+  width: 15%;
+}
 
 @media only screen and (max-width:320px){
   .info-container{

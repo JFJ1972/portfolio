@@ -1,5 +1,6 @@
 import React from "react";
 import "./Info.css";
+import { Icon } from '@iconify/react';
 
 
 const Info = () => {
@@ -30,26 +31,25 @@ const Info = () => {
           <div className="education">
             <h4>Education</h4>
             Degree: Web Developer Full Stack
-            <br/>
-            Completed May 2022
-            <br/>
+            <p>Completed May 2022</p>
             <br/>
             Degree: Business Administrator
-            <br />
+            <br/>
             Completed September 2001
           </div><br/>
           <div className="habilities">
             <h4>Skills</h4>
-            HTML
-            CSS
+            <p className="sk"> HTML <Icon icon="ant-design:html5-outlined" color="#ba3329" />
+            CSS<Icon icon="ion:logo-css3" color="#ba3329" />
             <br />
-            JavaScript
-            React
+            JavaScript<Icon icon="vscode-icons:file-type-js-official" color="#ba3329" />
+            React<Icon icon="teenyicons:react-solid" color="#ba3329" />
             <br />
-            Node
-            Php
+            Node<Icon icon="akar-icons:node-fill" color="#ba3329" />
+            Php<Icon icon="akar-icons:php-fill" color="#ba3329" />
             <br />
-            MongoDb
+            MongoDb<Icon icon="bxl:mongodb" color="#ba3329" />
+            </p>
           </div>
           <br/>
           <div className="languajes">
@@ -97,16 +97,17 @@ const Info = () => {
           </div><br/>
           <div className="habilities">
             <h4>Habilidades</h4>
-            HTML
-            CSS
+            <p className="sk"> HTML <Icon icon="ant-design:html5-outlined" color="#ba3329" />
+            CSS<Icon icon="ion:logo-css3" color="#ba3329" />
             <br />
-            JavaScript
-            React
+            JavaScript<Icon icon="vscode-icons:file-type-js-official" color="#ba3329" />
+            React<Icon icon="teenyicons:react-solid" color="#ba3329" />
             <br />
-            Node
-            Php
+            Node<Icon icon="akar-icons:node-fill" color="#ba3329" />
+            Php<Icon icon="akar-icons:php-fill" color="#ba3329" />
             <br />
-            MongoDb
+            MongoDb<Icon icon="bxl:mongodb" color="#ba3329" />
+            </p>
           </div>
           <br/>
           <div className="languajes">

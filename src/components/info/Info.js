@@ -37,7 +37,7 @@ const Info = () => {
             Degree: Business Administrator
             <br />
             Completed September 2001
-          </div>
+          </div><br/>
           <div className="habilities">
             <h4>Skills</h4>
             HTML
@@ -51,7 +51,7 @@ const Info = () => {
             <br />
             MongoDb
           </div>
-
+          <br/>
           <div className="languajes">
             <h4>Languajes</h4>
             Native Spanish
@@ -94,7 +94,7 @@ const Info = () => {
             Titulo: Administrador
             <br />
             Completado Septiembre 2001
-          </div>
+          </div><br/>
           <div className="habilities">
             <h4>Habilidades</h4>
             HTML
@@ -108,7 +108,7 @@ const Info = () => {
             <br />
             MongoDb
           </div>
-
+          <br/>
           <div className="languajes">
             <h4>Idiomas</h4>
             Español Nativo

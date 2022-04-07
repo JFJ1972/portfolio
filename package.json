@@ -2,7 +2,8 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "nomepage": "https://github.com/JFJ1972/portfolio.git",
+  "homepage":"https://jfj1972.github.io/portfolio/",
+  "name":"portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
     "@testing-library/jest-dom": "^5.16.2",

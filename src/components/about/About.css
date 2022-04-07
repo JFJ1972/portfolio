@@ -5,6 +5,8 @@
   height: 100vh;
   padding: 50px 100px 50px 100px;  
   background-color: white;
+  justify-content: center;
+  align-items: center;
   }
 
 .about-desc{
@@ -28,16 +30,14 @@
 } 
 
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width: 428px){
 .about-container{
-  grid-template-rows: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   padding: 0 0 0 0;
-  
-  }
+    }
 
 .about-desc{
-  grid-row: 1;
-  max-width: 320px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: justify;
@@ -46,12 +46,9 @@
 }  
 
 .about-img{
-  grid-row: 2;
-  width: 55%;
-  height: 55%;
-  padding-left: 35px;
-  padding-right: 20px;
-}
+  width: 45%;
+  height: 45%;
+  }
 
 .about-img > img{
   box-shadow: 15px 15px 5px  rgba(0,0,0,0.5);

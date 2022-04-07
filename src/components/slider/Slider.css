@@ -4,7 +4,7 @@
     background-color: brown;
     height: 100vh;
     width: 100%;    
-}
+    }
 
 .sliderContainer a{
     text-decoration: none;
@@ -44,12 +44,13 @@
     font-size: 25px;    
 }
 .sliderContainer{
-    padding: 100px 0 5px 100px;
-    width: 90%;
+    width: 95%;
+    padding: 25% 0 25% 10%;
+
     }
 
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width:428px){
     .proyects{
         display: grid;
         grid-template-columns: 1fr;
@@ -57,7 +58,7 @@
        }
     .proyectsText{
         grid-row: 1;
-        padding: 0 10px 0 10px;
+        padding: 20px 10px 0 10px;
     }
     .proyectsText h3{
         margin-bottom: 5px;
@@ -75,7 +76,7 @@
         text-align: center;
         justify-content: center;
         position: relative;
-        padding: 0 0 0 0;
+        padding: 25px 0 25px 0;
         margin-left: 32px;
         width: 80%;    
      }

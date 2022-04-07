@@ -2,7 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://github.com/JFJ1972/portfolio.git",
+  "homepage":"https://jfj1972.github.io/portfolio/",
   "name":"portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.5.0",

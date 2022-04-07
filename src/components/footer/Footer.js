@@ -1,7 +1,17 @@
 import React from "react";
 import "./Footer.css";
 import emailjs from "@emailjs/browser";
+import swal from 'sweetalert'
 
+
+const alertSend=()=> {
+  swal({
+    title: "Send",
+    text: "Message send contact",
+    icon: "success",
+    timer: "1000"
+  });
+  }
 //const Footer = () => {
 export const Footer = () => {
   const sendEmail = (event) => {
@@ -13,8 +23,8 @@ export const Footer = () => {
         event.target,
         "HTFvVy3xF0EPHXk_T"
       )
-      .then((response) => console.log(response)).
-      catch((error) => console.log(error));
+      .then(() =>alertSend() )
+      window.location.reload(false)
   };
 
   return (
@@ -61,7 +71,7 @@ export const Footer = () => {
           <hr />
           <label>Message/Mensaje</label>
           <textarea name="user_message" id="" cols="30" rows="10"></textarea>
-          <hr />
+          <hr/>
           <button>Send/Enviar</button>
         </form>
       </div>

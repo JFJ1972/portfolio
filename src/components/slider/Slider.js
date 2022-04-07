@@ -5,6 +5,7 @@ import img3 from "../../media/piano.jpg";
 import img4 from "../../media/replica.png";
 import img5 from "../../media/covidapp.png";
 import img6 from "../../media/ecommerce.png";
+import img7 from "../../media/mernStack.png";
 import { Icon } from '@iconify/react';
 
 const Slider = () => {
@@ -13,6 +14,18 @@ const Slider = () => {
       <div className="sliderContainer">
         <Carousel variant="dark" >
           
+        <Carousel.Item>
+            <img className="d-block w-100" src={img7} alt="Second slide" />
+            <Carousel.Caption>
+              <a href="https://mern-start-client.herokuapp.com"
+                target="_blank"
+                rel="noopener noreferrer">
+              <h3>Mern: Individual Work/Trabajo individual. Available in/Disponible en:
+              <Icon className="icon" Icon icon="cib:heroku" color="brown"/></h3>
+              </a>
+            </Carousel.Caption>
+          </Carousel.Item>
+
         <Carousel.Item>
             <img className="d-block w-100" src={img6} alt="Second slide" />
             <Carousel.Caption>

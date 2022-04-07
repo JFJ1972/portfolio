@@ -13,8 +13,8 @@ export const Footer = () => {
         event.target,
         "HTFvVy3xF0EPHXk_T"
       )
-      .then((response) => console.log(response))
-      .catch((error) => console.log(error));
+      .then((response) => console.log(response)).
+      catch((error) => console.log(error));
   };
 
   return (

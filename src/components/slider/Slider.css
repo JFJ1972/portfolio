@@ -50,7 +50,7 @@
     }
 
 
-@media only screen and (max-width:428px){
+@media only screen and (max-width:744px){
     .proyects{
         display: grid;
         grid-template-columns: 1fr;

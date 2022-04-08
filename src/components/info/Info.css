@@ -63,7 +63,7 @@
   width: 15%;
 }
 
-@media only screen and (max-width:428px){
+@media only screen and (max-width:744px){
   .info-container{
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;

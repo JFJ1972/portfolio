@@ -18,50 +18,6 @@
 .footer {
   width: 100%;
 }
-.design-by {
-  font-size: 35px;
-  color: white;
-  padding-bottom: 50px;
-}
-
-.footer-info > h1 {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.footer-info {
-  font-size: 35px;
-  width: 100%;
-  padding-bottom: 60px;
-}
-
-.footer-contact {
-  font-size: 22px;
-  padding-bottom: 20px;
-}
-
-.sns-links {
-  display: grid;
-  width: 50%;
-  text-align: center;
-  grid-template-columns: 1fr 1fr;
-}
-
-.linkedin,
-.instagram {
-  color: white;
-  font-size: 40px;
-  margin: 0 auto;
-  padding-bottom: 10px;
-  border-bottom: 4px solid transparent;
-}
-
-.linkedin:hover,
-.instagram:hover {
-  border-color: black;
-  transition: all 0.3s ease-out;
-}
-
 .div-form {
   display: flex;
   flex-direction: column;
@@ -131,6 +87,50 @@ button:focus {
   color: #ffff;
 }
 
+.design-by {
+  font-size: 35px;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.footer-info > h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.footer-info {
+  font-size: 35px;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.footer-contact h3 {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+.sns-links {
+  display: grid;
+  width: 50%;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.linkedin,
+.instagram {
+  color: white;
+  font-size: 40px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  border-bottom: 4px solid transparent;
+}
+
+.linkedin:hover,
+.instagram:hover {
+  border-color: black;
+  transition: all 0.3s ease-out;
+}
+
 @media only screen and (max-width: 428px) {
   .footer-container {
     grid-template-columns: 1fr;
@@ -138,168 +138,261 @@ button:focus {
     padding: 0;
   }
   .footer {
-    display: flex;
-    flex-direction: column;
-    padding-top: 10px;
     grid-row: 2;
+    width: 100%;
+    align-items: center;
+    text-align: center;
   }
   .div-form {
-    margin-top: 80px;
-    display: flex;
     grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 80px;
   }
+
+  .title-form {
+    color: white;
+    font-size: 18px;
+  }
+
   .form-mail {
-    width: 16rem;
+    width: 15rem;
     height: 20rem;
-    padding: 0.5rem;
-    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.6);
+    border: groove 3px #ffff;
+    border-radius: 10px;
+    box-shadow: -3px -2px 1px brown;
+    background: brown;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.8);
+
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
   hr {
-        color: transparent;
+    width: 1rem;
+    color: transparent;
   }
 
   label {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 0.1rem;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
   }
 
   input {
     font-size: 0.9rem;
+    background-color: #cbcbcb;
+    box-shadow: 0 -2px 2px rgb(199, 194, 194);
+    border-radius: 5px;
+    color: #ffff;
   }
 
   textarea {
     border-radius: 10px;
-    
+    background-color: #cbcbcb;
+    font-size: 0.8rem;
   }
 
   button {
-    margin-top: 25px;
+    width: 8rem;
+    border-radius: 5px;
     font-size: 1rem;
+    font-weight: bold;
+    color: rgb(77, 70, 70);
+    cursor: pointer;
+  }
+
+  button:hover,
+  button:focus {
+    background-color: rgb(77, 70, 70);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffff;
   }
 
   .design-by {
     font-size: 10px;
     color: white;
     padding-bottom: 0px;
-    text-align: center;
+    padding-top: 25px;
   }
+
+  .footer-info > h1 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
   .footer-info {
-    font-size: 12px;
+    font-size: 10px;
+    width: 100%;
     padding-bottom: 0px;
-    text-align: center;
   }
 
-  .footer-info > h1 {
-    font-size: 14px;
-    text-align: center;
-    font-weight: 550;
-    margin: 0;
-  }
-  .footer-info > p {
-    margin: 5px;
-  }
-  
-  .footer-contact > h3 {
-    text-align: center;
+  .footer-contact h3 {
+    font-size: 10px;
+    padding-bottom: 0px;
   }
 
   .sns-links {
+    display: grid;
+
     width: 100%;
-  }
-
-  .linkedin, .instagram {
-    font-size: 20px;
-    }
-}
-
-@media only screen and (max-width: 744px) {
-  .footer-container{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding-top: 90px;
-  }
-
-  .footer{
-    padding-top: 40px;
-    grid-row: 2;
     text-align: center;
-  }
-  .div-form{
-    grid-row: 1;
-  }  
-
-  .form-mail {
-    width: 20rem;
-    height: 28rem;
-    padding: 0.5rem;
-    box-shadow: -14px 12px 12px rgba(0, 0, 0, 0.6);
-  }
-
-  label {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-bottom: 0.1rem;
-  }
-
-  input {
-    font-size: 1.2rem;
-  }
-
-  textarea {
-    border-radius: 7px;
-    
-  }
-
-  button {
-    font-size: 1rem;
-     }
-
-  .design-by {
-    font-size: 20px;
-    padding: 10px 0 10px;
-  }
-  .footer-info {
-    font-size: 17px;
-    padding: 0 0 10px;
-  }
-  .footer-info > h1 {
-    font-size: 19px;
-  }
-  .footer-info > p {
-    margin: 5px;
-  }
-
-  .footer-contact > h3 {
-    font-size: 17px;
-  }
-  .sns-links {
-    width: 100%;
+    grid-template-columns: 1fr 1fr;
   }
 
   .linkedin,
   .instagram {
-    font-size: 35px;
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    border-bottom: 4px solid transparent;
+  }
+
+  .linkedin:hover,
+  .instagram:hover {
+    border-color: black;
+    transition: all 0.3s ease-out;
   }
 }
-/*@media only screen and (max-width: 960px){
-    .footer-info{
-        text-align: center;
-        padding: 0;
-        font-size: 20px;
-            }
-    
-      .footer-contact{
-          font-size: 16px;
-          padding: 100px 0 30px 0;
-          text-align: center;
-         }      
-         .footer-sns{
-             grid-template-columns: 1fr;
-             text-align: center;
-         }
-         .design-by{
-             padding: 0 0 40px 0;
-             font-size: 20px;
-         }
-}*/
+@media only screen and (min-width: 429px) and (max-width: 744px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0;
+  }
+  .footer {
+    grid-row: 2;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .div-form {
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 80px;
+  }
+
+  .title-form {
+    color: white;
+    font-size: 18px;
+  }
+
+  .form-mail {
+    width: 20rem;
+    height: 35rem;
+    border: groove 3px #ffff;
+    border-radius: 10px;
+    box-shadow: -3px -2px 1px brown;
+    background: brown;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.8);
+
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  hr {
+    width: 1rem;
+    color: transparent;
+  }
+
+  label {
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    font-size: 1rem;
+    background-color: #cbcbcb;
+    box-shadow: 0 -2px 2px rgb(199, 194, 194);
+    border-radius: 5px;
+    color: #ffff;
+  }
+
+  textarea {
+    border-radius: 10px;
+    background-color: #cbcbcb;
+    font-size: 0.9rem;
+  }
+
+  button {
+    width: 8rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(77, 70, 70);
+    cursor: pointer;
+  }
+
+  button:hover,
+  button:focus {
+    background-color: rgb(77, 70, 70);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffff;
+  }
+
+  .design-by {
+    font-size: 10px;
+    color: white;
+    padding-bottom: 0px;
+    padding-top: 25px;
+  }
+
+  .footer-info > h1 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .footer-info {
+    font-size: 10px;
+    width: 100%;
+    padding-bottom: 0px;
+  }
+
+  .footer-contact h3 {
+    font-size: 10px;
+    padding-bottom: 0px;
+  }
+
+  .sns-links {
+    display: grid;
+
+    width: 100%;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .linkedin,
+  .instagram {
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    border-bottom: 4px solid transparent;
+  }
+
+  .linkedin:hover,
+  .instagram:hover {
+    border-color: black;
+    transition: all 0.3s ease-out;
+  }
+}
+

@@ -67,18 +67,18 @@ const Info = () => {
         <div className="resume">
           <h1>Resumen Profesional</h1>
           <p>
-            Desarrollador web apasionado por nuevos retos, con conocimentos en
+            Desarrollador web apasionado por nuevos retos, con conocimientos en
             front-end y back-end, orientado al logro de objetivos, amplia
-            experiencia en atencion al cliente interno y externo al igual que en
-            la implementacion y ejecucion de la metodologia agile. Interesado en
+            experiencia en atención al cliente interno y externo al igual que en
+            la implementación y ejecución de la metodología agile. Interesado en
             hacer parte de equipos dedicados al desarrollo de software que me
             permitan crecer profesionalmente.
             <br />
             Trayectoria de 25 años en el manejo de recursos humanos,
-            presupuestos, objetivos comerciales y en atencion al publico en
-            establecimientos financieros. Experiencia de mas de 2 años en
-            capacitacion de personal en aula y mediante la supervision de
-            practicas laborales.
+            presupuestos, objetivos comerciales y en atención al público en
+            establecimientos financieros. Experiencia de más de 2 años en
+            capacitación de personal en aula y mediante la supervisión de
+            prácticas laborales.
             <br />
           
           </p>

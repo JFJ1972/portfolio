@@ -85,7 +85,7 @@ const Slider = () => {
           I have carried out projects individually and in teams, always applying scrum and agile methodologies.
           Participate in the ¨Hackaton-F5 2022¨ as part of a team made up of students from european schools of various nationalities.
           <br/><br/>
-          He realizado proyectos de forma individual y en equipo, siempre aplicando metodologia scrum y agile. 
+          He realizado proyectos de forma individual y en equipo, siempre aplicando metodología scrum y agile. 
           Participe en la ¨Hackaton-F5 2022¨ como parte de un equipo integrado por estudiantes de escuelas europeas de diversas nacionalidades.
         </p>
       </div>

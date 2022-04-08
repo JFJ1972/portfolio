@@ -10,7 +10,7 @@ function About() {
           I´m a business administrator and since 2021 i´m training to be a Web developer.  
           <br/>
           <br/>
-          Soy administrador de empresas y desde 2021 estoy entrenandome para ser
+          Soy administrador de empresas y desde 2021 estoy entrenándome para ser
           desarrollador Web.
         </p>
       </div>

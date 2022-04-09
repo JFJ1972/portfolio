@@ -6,9 +6,11 @@ import { Icon } from '@iconify/react';
 const Info = () => {
   
   return (
-    <div className="info-container">
-      <div className="curriculum">
-        <div className="resume">
+    <div className="info-container" >
+      <div className="curriculum" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000" >
+        <div className="resume" >
           <h1>Professional Resume</h1>
           <p>
             Web developer passionate about new challenges, with knowledge in
@@ -63,7 +65,9 @@ const Info = () => {
         <br/><br/>
         </div>
       
-        <div className="curriculumb">
+        <div className="curriculumb" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="3000"  >
         <div className="resume">
           <h1>Resumen Profesional</h1>
           <p>

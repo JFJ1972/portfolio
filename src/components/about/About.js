@@ -14,7 +14,7 @@ function About() {
           desarrollador Web.
         </p>
       </div>
-      <div className="about-img">
+      <div className="about-img" data-aos="zoom-in" data-aos-duration="3000">
         <img src={img1} alt="" />
       </div>
     </div>

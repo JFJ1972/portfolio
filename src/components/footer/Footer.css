@@ -61,13 +61,16 @@ input {
   background-color: #cbcbcb;
   box-shadow: 0 -2px 2px rgb(199, 194, 194);
   border-radius: 5px;
-  color: #ffff;
+  color: brown;
+  font-weight: 600;
 }
 
 textarea {
   border-radius: 10px;
   background-color: #cbcbcb;
   padding: 0.5rem;
+  color: brown;
+  font-weight: 600;
 }
 
 button {

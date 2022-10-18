@@ -24,7 +24,7 @@ const Info = () => {
             budgets, commercial objectives and in attention to the public in
             financial establishments. Experience of more than 2 years in
             staff training in the classroom and through the supervision of
-            labor practices.
+            labor practices. At least 8 projects carried out with scrum in the last year
             <br />
             
           </p>
@@ -32,6 +32,9 @@ const Info = () => {
         <div className="topics">
           <div className="education">
             <h4>Education</h4>
+            Degree: Scrum Master
+            <p>Completed Oct 2022</p>
+            <br/>
             Degree: Web Developer Full Stack
             <p>Completed May 2022</p>
             <br/>
@@ -82,7 +85,7 @@ const Info = () => {
             presupuestos, objetivos comerciales y en atención al público en
             establecimientos financieros. Experiencia de más de 2 años en
             capacitación de personal en aula y mediante la supervisión de
-            prácticas laborales.
+            prácticas laborales. Al menos 8 proyectos realizados con scrum en el ultimo año.
             <br />
           
           </p>
@@ -91,9 +94,11 @@ const Info = () => {
         <div className="topics">
           <div className="education">
             <h4>Educación</h4>
+            Titulo: Scrum Master<br />
+            Completado Octubre 2022
+            <br />
             Titulo: Desarrollador Web Full Stack <br />
             Completado Mayo 2022
-            <br />
             <br />
             Titulo: Administrador
             <br />

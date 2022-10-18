@@ -1,0 +1,35 @@
+.navbar{
+position: fixed;
+top: 0;
+background-color: transparent;
+width: 100%;
+height: 70px;
+padding-left: 50px;
+font-size: 23px;
+z-index: 3;
+
+}
+
+.scrolling{
+box-shadow: -5px 5px 20px rgba(0,0,0,0.8);    
+background-color: #E6E5E9;
+transition: all 0.5s ease;
+}
+
+.navbar-logo {
+height: 80px;
+line-height: 80px;
+color: rgb(77, 70, 70);
+cursor: pointer;
+}
+.iconh{
+    margin-bottom: 22px;
+}
+
+@media only screen and (max-width: 428px) {
+    .navbar{
+        padding-left: 25px;
+        font-size: 15px;
+        }
+
+}

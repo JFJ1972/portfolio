@@ -85,7 +85,7 @@ const Info = () => {
             presupuestos, objetivos comerciales y en atención al público en
             establecimientos financieros. Experiencia de más de 2 años en
             capacitación de personal en aula y mediante la supervisión de
-            prácticas laborales. Al menos 8 proyectos realizados con scrum en el ultimo año.
+            prácticas laborales. Al menos 8 proyectos realizados con Scrum en el ultimo año.
             <br />
           
           </p>

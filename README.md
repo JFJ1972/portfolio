@@ -12,11 +12,11 @@ Se entrega como evaluacion para Educamas y su bootcamp "Programate".</p>
 
 <p>La ejecución del proyecto se planteó mediante un Product Backlog elaborado en Trello https://trello.com/b/nLydWWZz/portafolio-online</p>
 
-<img src= "https://user-images.githubusercontent.com/97111500/162536025-3b3afb08-73e5-4d32-90f4-da4af6d2a971.png">
+<img src= "https://user-images.githubusercontent.com/97111500/162536025-3b3afb08-73e5-4d32-90f4-da4af6d2a971.png" width="400px" heigth="250px">
 
 <p>Los Mockup's fueron elaborados en Figma. Para  consulta en https://www.figma.com/file/MO15YcJuRoICT4r6b7CYZE/Portfolio?node-id=0%3A1</P>
 
-![Mcup](https://user-images.githubusercontent.com/97111500/162536839-2c5a213a-4554-467c-a2a7-d3ec72e9485b.png)
+<img src="https://user-images.githubusercontent.com/97111500/162536839-2c5a213a-4554-467c-a2a7-d3ec72e9485b.png" width="300px" heigth="800px"> 
 
 <p>El desarrollo se realizó con ReactApp <img src="https://user-images.githubusercontent.com/97111500/154511207-4f81cf14-621e-4b5c-aae8-3dffc219ceeb.png" min-width="20px" max-width="20px" width="20px" align="center" alt="Computador">, por lo que se requiere la instalacion de: 
 <br/>
@@ -28,7 +28,8 @@ y los paquetes disponibles en:
 <br/> 
 App npx create-react-app my-app<br/>   
 Iconos npm install --save-dev @iconify/react  <br/> 
-Emailjs npm install @emailjs/browser --save<br/> 
+Emailjs npm install @emailjs/browser --save<br/>
+Animacion npm install aos --save <br/>   
 <br/>
 <br/>
 El mailer utiliza:<br/>
@@ -51,6 +52,7 @@ https://gist.github.com/erozog125/7750f4b5b86d69718d08911973466c2c</br>
 Video tutorial en: https://youtu.be/IvGzYJitqWg</br>
 https://github.com/Re-On-Media/Website-Portfolio</br>
 Video tutorial en:https://youtu.be/lbKs9Yklz7o</br>
+https://michalsnik.github.io/aos/<br/>
 developer.mozilla.org</br>
 stackoverflow.com</br>
 https://css-tricks.com/snippets/css/complete-guide-grid/</br>
